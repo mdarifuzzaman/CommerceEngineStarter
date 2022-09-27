@@ -174,7 +174,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.BusinessUsers.EnvironmentBusinessToolsPolicy,Sitecore.Commerce.Plugin.BusinessUsers",
-        "ServiceUrl": "PlaceholderForEngineAuthoringUrl"
+        "ServiceUrl": ""
       },
       {
         "$type": "Sitecore.Commerce.Core.EnvironmentInitializationPolicy, Sitecore.Commerce.Core",
@@ -589,7 +589,9 @@
           "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
           "$values": [
             "Color",
-            "Size"
+            "Size",
+			"Variant_Info_Data",
+			"Style"
           ]
         }
       },

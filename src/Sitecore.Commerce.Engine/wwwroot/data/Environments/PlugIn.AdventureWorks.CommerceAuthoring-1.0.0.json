@@ -174,7 +174,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.BusinessUsers.EnvironmentBusinessToolsPolicy,Sitecore.Commerce.Plugin.BusinessUsers",
-        "ServiceUrl": "PlaceholderForEngineAuthoringUrl"
+        "ServiceUrl": ""
       },
       {
         "$type": "Sitecore.Commerce.Core.EnvironmentInitializationPolicy, Sitecore.Commerce.Core",

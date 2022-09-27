@@ -16,45 +16,45 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchViewPolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixOrdersScope",
+        "SearchScopeName": "OrdersScope",
         "ViewName": "OrdersDashboard"
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchViewPolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixCustomersScope",
+        "SearchScopeName": "CustomersScope",
         "ViewName": "CustomersDashboard"
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchViewPolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixCatalogItemsScope",
+        "SearchScopeName": "CatalogItemsScope",
         "ViewName": "MerchandisingDashboard"
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchViewPolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixPromotionsScope",
+        "SearchScopeName": "PromotionsScope",
         "ViewName": "PromotionsDashboard"
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchViewPolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixCatalogItemsScope",
+        "SearchScopeName": "CatalogItemsScope",
         "ViewName": "Master",
         "EntityType": "Sitecore.Commerce.Plugin.Inventory.InventorySet, Sitecore.Commerce.Plugin.Inventory",
         "Hint": "Inventory"
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchViewPolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixPriceCardsScope",
+        "SearchScopeName": "PriceCardsScope",
         "ViewName": "PricingDashboard"
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForSearchIndexPrefixCatalogItemsScope",
-        "CurrentIndexName": "PlaceholderForSearchIndexPrefixCatalogItemsScope",
+        "Name": "CatalogItemsScope",
+        "CurrentIndexName": "CatalogItemsScope",
         "SwitchOnRebuild": true,
         "SwitchOnRebuildReset": false,
         "SwitchOnRebuildClearPreviousIndex": true,
-        "SwitchOnRebuildPrimaryIndexName": "PlaceholderForSearchIndexPrefixCatalogItemsScope",
-        "SwitchOnRebuildSecondaryIndexName": "PlaceholderForSearchIndexPrefixCatalogItemsScope-Rebuild",
+        "SwitchOnRebuildPrimaryIndexName": "CatalogItemsScope",
+        "SwitchOnRebuildSecondaryIndexName": "CatalogItemsScope-Rebuild",
         "IncrementalListName": "CatalogItemsIndex",
         "DeletedListName": "DeletedCatalogItemsIndex",
         "FullListNames": [
@@ -82,13 +82,13 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForSearchIndexPrefixCustomersScope",
-        "CurrentIndexName": "PlaceholderForSearchIndexPrefixCustomersScope",
+        "Name": "CustomersScope",
+        "CurrentIndexName": "CustomersScope",
         "SwitchOnRebuild": true,
         "SwitchOnRebuildReset": false,
         "SwitchOnRebuildClearPreviousIndex": true,
-        "SwitchOnRebuildPrimaryIndexName": "PlaceholderForSearchIndexPrefixCustomersScope",
-        "SwitchOnRebuildSecondaryIndexName": "PlaceholderForSearchIndexPrefixCustomersScope-Rebuild",
+        "SwitchOnRebuildPrimaryIndexName": "CustomersScope",
+        "SwitchOnRebuildSecondaryIndexName": "CustomersScope-Rebuild",
         "IncrementalListName": "CustomersIndex",
         "DeletedListName": "DeletedCustomersIndex",
         "FullListNames": [
@@ -112,13 +112,13 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForSearchIndexPrefixOrdersScope",
-        "CurrentIndexName": "PlaceholderForSearchIndexPrefixOrdersScope",
+        "Name": "OrdersScope",
+        "CurrentIndexName": "OrdersScope",
         "SwitchOnRebuild": true,
         "SwitchOnRebuildReset": false,
         "SwitchOnRebuildClearPreviousIndex": true,
-        "SwitchOnRebuildPrimaryIndexName": "PlaceholderForSearchIndexPrefixOrdersScope",
-        "SwitchOnRebuildSecondaryIndexName": "PlaceholderForSearchIndexPrefixOrdersScope-Rebuild",
+        "SwitchOnRebuildPrimaryIndexName": "OrdersScope",
+        "SwitchOnRebuildSecondaryIndexName": "OrdersScope-Rebuild",
         "IncrementalListName": "OrdersIndex",
         "DeletedListName": "DeletedOrdersIndex",
         "FullListNames": [
@@ -142,13 +142,13 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForSearchIndexPrefixPromotionsScope",
-        "CurrentIndexName": "PlaceholderForSearchIndexPrefixPromotionsScope",
+        "Name": "PromotionsScope",
+        "CurrentIndexName": "PromotionsScope",
         "SwitchOnRebuild": true,
         "SwitchOnRebuildReset": false,
         "SwitchOnRebuildClearPreviousIndex": true,
-        "SwitchOnRebuildPrimaryIndexName": "PlaceholderForSearchIndexPrefixPromotionsScope",
-        "SwitchOnRebuildSecondaryIndexName": "PlaceholderForSearchIndexPrefixPromotionsScope-Rebuild",
+        "SwitchOnRebuildPrimaryIndexName": "PromotionsScope",
+        "SwitchOnRebuildSecondaryIndexName": "PromotionsScope-Rebuild",
         "IncrementalListName": "PromotionsIndex",
         "FullListNames": [
           "PromotionBooks",
@@ -173,8 +173,8 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SitecoreItemSearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForStorefrontIndexPrefix_master_index",
-        "InternalIndexName": "sitecore_master_index",
+        "Name": "xp101_sxa_master_index",
+        "InternalIndexName": "sitecore_sxa_master_index",
         "IncrementalListName": "CatalogItemsIncrementalIndexMaster",
         "DeletedListName": "CatalogItemsDeletedIndexMaster",
         "FullListNames": [
@@ -183,8 +183,8 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SitecoreItemSearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForStorefrontIndexPrefix_web_index",
-        "InternalIndexName": "sitecore_web_index",
+        "Name": "xp101_sxa_web_index",
+        "InternalIndexName": "sitecore_sxa_web_index",
         "IncrementalListName": "CatalogItemsIncrementalIndexWeb",
         "DeletedListName": "CatalogItemsDeletedIndexWeb",
         "FullListNames": [
@@ -193,13 +193,13 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "PlaceholderForSearchIndexPrefixPriceCardsScope",
-        "CurrentIndexName": "PlaceholderForSearchIndexPrefixPriceCardsScope",
+        "Name": "PriceCardsScope",
+        "CurrentIndexName": "PriceCardsScope",
         "SwitchOnRebuild": true,
         "SwitchOnRebuildReset": false,
         "SwitchOnRebuildClearPreviousIndex": true,
-        "SwitchOnRebuildPrimaryIndexName": "PlaceholderForSearchIndexPrefixPriceCardsScope",
-        "SwitchOnRebuildSecondaryIndexName": "PlaceholderForSearchIndexPrefixPriceCardsScope-Rebuild",
+        "SwitchOnRebuildPrimaryIndexName": "PriceCardsScope",
+        "SwitchOnRebuildSecondaryIndexName": "PriceCardsScope-Rebuild",
         "IncrementalListName": "PriceItemsIndex",
         "FullListNames": [
           "PriceBooks",
@@ -224,7 +224,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.IndexablePolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixCatalogItemsScope",
+        "SearchScopeName": "CatalogItemsScope",
         "Properties": {
           "EntityUniqueId": {
             "TypeName": "System.String",
@@ -356,7 +356,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.IndexablePolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixCustomersScope",
+        "SearchScopeName": "CustomersScope",
         "Properties": {
           "EntityUniqueId": {
             "TypeName": "System.String",
@@ -452,7 +452,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.IndexablePolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixOrdersScope",
+        "SearchScopeName": "OrdersScope",
         "Properties": {
           "EntityUniqueId": {
             "TypeName": "System.String",
@@ -548,7 +548,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.IndexablePolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixPriceCardsScope",
+        "SearchScopeName": "PriceCardsScope",
         "Properties": {
           "SnapshotId": {
             "TypeName": "System.String",
@@ -680,7 +680,7 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.IndexablePolicy, Sitecore.Commerce.Plugin.Search",
-        "SearchScopeName": "PlaceholderForSearchIndexPrefixPromotionsScope",
+        "SearchScopeName": "PromotionsScope",
         "Properties": {
           "EntityUniqueId": {
             "TypeName": "System.String",

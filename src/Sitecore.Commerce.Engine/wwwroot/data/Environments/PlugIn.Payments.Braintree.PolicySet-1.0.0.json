@@ -9,10 +9,10 @@
     "$values": [
       {
         "$type": "Plugin.Sample.Payments.Braintree.BraintreeClientPolicy, Plugin.Sample.Payments.Braintree",
-        "Environment": "PlaceholderForBraintreeEnvironment",
-        "MerchantId": "PlaceholderForBraintreeMerchantId",
-        "PublicKey": "PlaceholderForBraintreePublicKey",
-        "PrivateKey": "PlaceholderForBraintreePrivateKey",
+        "Environment": "",
+        "MerchantId": "",
+        "PublicKey": "",
+        "PrivateKey": "",
         "ConnectTimeout": 120000
       }
     ]

@@ -9,17 +9,17 @@
     "$values": [
       {
         "$type": "Sitecore.Commerce.Plugin.Management.SitecoreConnectionPolicy, Sitecore.Commerce.Plugin.Management",
-        "Host": "PlaceholderForSitecoreHost",
-        "SitecoreDatabase": "PlaceholderForSitecoreDatabase",
-        "UserName": "PlaceholderForSitecoreUsername",
-        "Domain": "PlaceholderForSitecoreDomain",
-        "Password": "PlaceholderForSitecorePassword",
+        "Host": "sxa.storefront.com",
+        "SitecoreDatabase": "master",
+        "UserName": "admin",
+        "Domain": "sitecore",
+        "Password": "b",
         "ConnectionLeaseTimeout": 60000,
         "AuthRequestUrl": "sitecore/api/ssc/auth/login",
-        "Protocol": "PlaceholderForSitecoreProtocol",
-        "AllowAnonymousUser": "PlaceholderForSitecoreAllowAnonymousUser",
-        "ExternalProtocol": "PlaceholderForSitecoreExternalProtocol",
-        "ExternalHost": "PlaceholderForSitecoreExternalHost"
+        "Protocol": "https",
+        "AllowAnonymousUser": "false",
+        "ExternalProtocol": "",
+        "ExternalHost": ""
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Content.DefaultContentPathsPolicy, Sitecore.Commerce.Plugin.Content",

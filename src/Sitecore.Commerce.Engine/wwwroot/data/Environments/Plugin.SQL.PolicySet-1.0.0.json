@@ -9,12 +9,12 @@
     "$values": [
       {
         "$type": "Sitecore.Commerce.Plugin.SQL.EntityStoreSqlPolicy, Sitecore.Commerce.Plugin.SQL",
-        "TrustedConnection": "PlaceholderForSharedTrustedConnection",
-        "UserName": "PlaceholderForSharedDatabaseUserName",
-        "Password": "PlaceholderForSharedDatabasePassword",
-        "Server": "PlaceholderForSharedDatabaseServer",
-        "Database": "PlaceholderForSharedDatabaseName",
-        "ArchiveDatabase": "PlaceholderForSharedArchiveDatabaseName",
+        "TrustedConnection": "true",
+        "UserName": "LT-MDAR-T-AU\\CSFndRuntimeUser3",
+        "Password": "admin",
+        "Server": "LT-MDAR-T-AU",
+        "Database": "SitecoreCommerce_SharedEnvironments",
+        "ArchiveDatabase": "SitecoreCommerce_ArchiveSharedEnvironments",
         "AdditionalParameters": "",
         "ConnectTimeout": 20,
         "CommandTimeout": 180,

@@ -16,3 +16,9 @@
 /src/Plugin.Sample.Payments.Braintree/obj
 /src/Plugin.Sample.AdventureWorks/obj
 /.vs/Customer.Sample.Solution
+/src/Plugin.Sample.AdventureWorks/bin/Release/netcoreapp3.1
+/src/Plugin.Sample.Habitat/bin/Release/netcoreapp3.1
+/src/Plugin.Sample.Order/bin
+/src/Plugin.Sample.Order/obj
+/src/Plugin.Sample.Payments.Braintree/bin/Release/netcoreapp3.1
+/src/Sitecore.Commerce.Engine/bin/Release/netcoreapp3.1

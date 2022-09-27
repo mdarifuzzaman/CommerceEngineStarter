@@ -8,6 +8,7 @@
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <LangVersion>latest</LangVersion>
     <UseAppHost>false</UseAppHost>
+    <UserSecretsId>5d2d4250-1496-4ab5-9fcb-7ebb9bfddb79</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,12 +23,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Sample.AdventureWorks\Plugin.Sample.AdventureWorks.csproj" />
     <ProjectReference Include="..\Plugin.Sample.Habitat\Plugin.Sample.Habitat.csproj" />
+    <ProjectReference Include="..\Plugin.Sample.Order\Plugin.Sample.Order.csproj" />
     <ProjectReference Include="..\Plugin.Sample.Payments.Braintree\Plugin.Sample.Payments.Braintree.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="3.1.*" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="3.1.12" />
     
     <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
     <PackageReference Include="Serilog.Sinks.Literate" Version="3.0.0" />
