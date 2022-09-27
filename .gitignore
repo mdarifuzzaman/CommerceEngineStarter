@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/src/Plugin.Sample.AdventureWorks/bin/Debug/netcoreapp3.1
+/src/Plugin.Sample.AdventureWorks/obj/Debug/netcoreapp3.1
+/src/Plugin.Sample.Habitat/bin/Debug/netcoreapp3.1
+/src/Plugin.Sample.Habitat/obj/Debug/netcoreapp3.1
+/src/Plugin.Sample.Payments.Braintree/bin/Debug/netcoreapp3.1
+/src/Plugin.Sample.Payments.Braintree/obj/Debug/netcoreapp3.1
+/src/Sitecore.Commerce.Engine/bin/Debug/netcoreapp3.1
+/src/Sitecore.Commerce.Engine/obj/Debug/netcoreapp3.1
+/src/Sitecore.Commerce.Engine/obj
+/src/Plugin.Sample.Habitat/obj
+/src/Plugin.Sample.Payments.Braintree/obj
+/src/Plugin.Sample.AdventureWorks/obj
+/.vs/Customer.Sample.Solution
