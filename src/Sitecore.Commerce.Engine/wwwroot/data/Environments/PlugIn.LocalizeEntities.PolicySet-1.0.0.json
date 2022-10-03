@@ -72,8 +72,7 @@
               "Color",
               "Size",
               "Style",
-              "DisambiguatingDescription",
-			  "Variant_Info_Data"
+              "DisambiguatingDescription"
             ],
             "ActionView": "DisplayProperties",
             "IsItemComponent": true

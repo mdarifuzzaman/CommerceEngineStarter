@@ -1,0 +1,126 @@
+00001 11:07:12 INFO Bootstrapping Application ...
+00001 11:07:13 INFO Loading Global Environment from: C:\Projects\Conexio\CE\src\Sitecore.Commerce.Engine\wwwroot\Bootstrap\
+00001 11:07:13 INFO [NodeStartup] GlobalEnvironmentFrom='Configuration: Global'
+00001 11:07:13 INFO [NodeStartup] Status='Started',GlobalEnvironmentName='GlobalEnvironment'
+00001 11:07:13 INFO Instantiating "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Eventing.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Eventing.ConfigureSitecore"
+00001 11:07:13 INFO Configuring event defaults
+00001 11:07:13 INFO Instantiating "Pipelines.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Pipelines.ConfigureSitecore"
+00001 11:07:13 INFO Configuring pipeline defaults
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Archive.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Archive.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 11:07:13 INFO Instantiating "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 11:07:13 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Plugin.Sample.Order.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Plugin.Sample.Order.ConfigureSitecore"
+00001 11:07:14 INFO Instantiating "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 11:07:14 INFO Invoking ConfigureServices on "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 11:07:15 INFO Core required DB Version [10.1.0] and DB Version [10.1.0]
+00004 11:07:15 INFO [NodeStartup] ContactId='PlaceholderForDeploymentId_84f6f4406e40428683c0ea5f8781c69f',Environment='GlobalEnvironment'
+00001 11:07:15 INFO [EnvironmentStartup] StartEnvironment=HabitatAuthoring
+00004 11:07:15 INFO Created log level category name: "Commerce-Redis-Store"-"RedisCacheStore"
+00005 11:07:15 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00001 11:07:20 INFO Now listening on: "https://localhost:5001"
+00001 11:07:20 INFO Now listening on: "http://localhost:5000"
+00001 11:07:20 INFO Application started. Press Ctrl+C to shut down.
+00001 11:07:20 INFO Hosting environment: "Development"
+00001 11:07:20 INFO Content root path: "C:\Projects\Conexio\CE\src\Sitecore.Commerce.Engine"
+00004 11:07:33 INFO Request starting HTTP/1.1 GET http://localhost:5000/  
+00004 11:07:33 INFO User is not authenticated. No role headers added
+00004 11:07:33 INFO Executing endpoint '"Fallback {*path:nonfile}"'
+00004 11:07:33 INFO Executed endpoint '"Fallback {*path:nonfile}"'
+00004 11:07:33 INFO Request finished in 61.0961ms 404 
+00015 11:08:04 INFO Request starting HTTP/1.1 GET http://localhost:5000/api/$metadata  
+00015 11:08:04 INFO User is not authenticated. No role headers added
+00015 11:08:04 INFO Executing endpoint '"Microsoft.AspNet.OData.MetadataController.GetMetadata (Microsoft.AspNetCore.OData)"'
+00015 11:08:04 INFO Route matched with "{action = \"GetMetadata\", controller = \"Metadata\"}". Executing controller action with signature "Microsoft.OData.Edm.IEdmModel GetMetadata()" on controller "Microsoft.AspNet.OData.MetadataController" ("Microsoft.AspNetCore.OData").
+00015 11:08:04 INFO Executing action method "Microsoft.AspNet.OData.MetadataController.GetMetadata (Microsoft.AspNetCore.OData)" - Validation state: Valid
+00015 11:08:04 INFO Executed action method "Microsoft.AspNet.OData.MetadataController.GetMetadata (Microsoft.AspNetCore.OData)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.3018ms.
+00015 11:08:04 INFO Executing ObjectResult, writing value of type '"Microsoft.OData.Edm.EdmModel"'.
+00015 11:08:04 INFO Executed action "Microsoft.AspNet.OData.MetadataController.GetMetadata (Microsoft.AspNetCore.OData)" in 104.4577ms
+00015 11:08:04 INFO Executed endpoint '"Microsoft.AspNet.OData.MetadataController.GetMetadata (Microsoft.AspNetCore.OData)"'
+00015 11:08:04 INFO Request finished in 231.1459ms 200 application/xml
+00040 11:08:05 INFO Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+00040 11:08:05 INFO User is not authenticated. No role headers added
+00040 11:08:05 INFO Request finished in 7.8766ms 404 

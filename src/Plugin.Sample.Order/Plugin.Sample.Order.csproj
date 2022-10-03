@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>The Sitecore Commerce Habitat Plugin Sample.</Description>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageTags>$(PackageTags);Commerce;Plugin;Sample;Habitat</PackageTags>
+    <PackageTags>;Commerce;Plugin;Sample;Habitat;Order</PackageTags>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <AssemblyName>Plugin.Sample.Order</AssemblyName>
     <RootNamespace>Plugin.Sample.Order</RootNamespace>

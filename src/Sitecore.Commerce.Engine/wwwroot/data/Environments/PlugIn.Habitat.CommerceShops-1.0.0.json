@@ -576,9 +576,7 @@
           "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
           "$values": [
             "Color",
-            "Size",
-			"Variant_Info_Data",
-			"Style"
+            "Size"
           ]
         }
       }

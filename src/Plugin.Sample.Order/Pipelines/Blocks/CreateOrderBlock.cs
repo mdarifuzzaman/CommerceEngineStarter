@@ -6,6 +6,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Plugin.Sample.Order.Policies;
 using Sitecore.Commerce.Core;
 using Sitecore.Commerce.Plugin.Carts;
 using Sitecore.Commerce.Plugin.ManagedLists;
@@ -16,13 +17,12 @@ using Sitecore.Framework.Pipelines;
 
 namespace Plugin.Sample.Order
 {
-    [PipelineDisplayName("Orders.block.Sample.CreateOrder")]
+    [PipelineDisplayName("Orders.block.Sample.CreateOrderBlock")]
     public class CreateOrderBlock : AsyncPipelineBlock<CartEmailArgument, Sitecore.Commerce.Plugin.Orders.Order, CommercePipelineExecutionContext>
     {
-
-     public override async Task<Sitecore.Commerce.Plugin.Orders.Order> RunAsync(
-     CartEmailArgument arg,
-     CommercePipelineExecutionContext context)
+        public override async Task<Sitecore.Commerce.Plugin.Orders.Order> RunAsync(
+      CartEmailArgument arg,
+      CommercePipelineExecutionContext context)
         {
             CreateOrderBlock createOrderBlock = this;
             // ISSUE: explicit non-virtual call
@@ -53,13 +53,20 @@ namespace Plugin.Sample.Order
                 component.GetPolicy<PurchaseOptionMoneyPolicy>().FixedSellPrice = false;
             context.CommerceContext.AddModel((Model)cart.Totals);
             context.CommerceContext.AddUniqueEntity((CommerceEntity)cart);
-            if (Decimal.Compare(cart.Totals.PaymentsTotal.Amount, cart.Totals.GrandTotal.Amount) != 0)
+
+            var policy = context.GetPolicy<PaymentOptionPolicy>();
+            if (policy.RequiredPaymentCheck)
             {
-                executionContext = context;
-                executionContext.Abort(await context.CommerceContext.AddMessage(context.GetPolicy<KnownResultCodes>().Error, "InsufficientPayment", (object[])null, "Order Payments Total must equal the GrandTotal").ConfigureAwait(false), (object)context);
-                executionContext = (CommercePipelineExecutionContext)null;
-                return (Sitecore.Commerce.Plugin.Orders.Order)null;
+                if (Decimal.Compare(cart.Totals.PaymentsTotal.Amount, cart.Totals.GrandTotal.Amount) != 0)
+                {
+                    executionContext = context;
+                    executionContext.Abort(await context.CommerceContext.AddMessage(context.GetPolicy<KnownResultCodes>().Error, "InsufficientPayment", (object[])null, "Order Payments Total must equal the GrandTotal").ConfigureAwait(false), (object)context);
+                    executionContext = (CommercePipelineExecutionContext)null;
+                    return (Sitecore.Commerce.Plugin.Orders.Order)null;
+                }
             }
+            
+
             ContactComponent component1 = cart.GetComponent<ContactComponent>();
             component1.Email = arg.Email;
             KnownOrderListsPolicy policy1 = context.GetPolicy<KnownOrderListsPolicy>();

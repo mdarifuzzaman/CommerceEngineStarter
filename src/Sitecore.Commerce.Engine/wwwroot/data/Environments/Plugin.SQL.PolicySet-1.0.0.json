@@ -10,7 +10,7 @@
       {
         "$type": "Sitecore.Commerce.Plugin.SQL.EntityStoreSqlPolicy, Sitecore.Commerce.Plugin.SQL",
         "TrustedConnection": "true",
-        "UserName": "LT-MDAR-T-AU\\CSFndRuntimeUser3",
+        "UserName": "LT-MDAR-T-AU\\CSFndRuntimeUser13",
         "Password": "admin",
         "Server": "LT-MDAR-T-AU",
         "Database": "SitecoreCommerce_SharedEnvironments",

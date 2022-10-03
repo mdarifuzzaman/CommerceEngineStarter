@@ -2,8 +2,12 @@
 
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
+using Plugin.Sample.Order.Pipelines.Blocks;
+using Plugin.Sample.Order.Pipelines.EntityViewBlocks;
 using Sitecore.Commerce.Core;
+using Sitecore.Commerce.EntityViews;
 using Sitecore.Commerce.Plugin.Orders;
+using Sitecore.Commerce.Plugin.Search;
 using Sitecore.Framework.Configuration;
 using Sitecore.Framework.Pipelines.Definitions.Extensions;
 
@@ -29,6 +33,18 @@ namespace Plugin.Sample.Order
             services.Sitecore().Pipelines(
                 config =>
                     config
+                        .ConfigurePipeline<IGetEntityViewPipeline>(pipeline => pipeline
+                            .Add<GetSearchExtensionViewBlock>().After<PopulateEntityVersionBlock>()
+                        )
+                        .ConfigurePipeline<ISearchPipeline>(d =>
+                        {
+                            d.Replace<Sitecore.Commerce.Plugin.Search.Solr.QueryDocumentsBlock, QueryDocumentsBlock>();
+                        })
+                        .ConfigurePipeline<ISearchPipeline>(d =>
+                        {
+                            d.Add<ProcessExtendedDocumentSearchResultBlock>().After<Sitecore.Commerce.Plugin.Pricing.ProcessDocumentSearchResultBlock>();
+                            d.Add<ProcessExtendedCatalogDocumentSearchResultBlock>().After<ProcessExtendedDocumentSearchResultBlock>();
+                        })
                         .ConfigurePipeline<ICreateOrderPipeline>(
                             d =>
                             {

@@ -173,8 +173,8 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SitecoreItemSearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "xp101_sxa_master_index",
-        "InternalIndexName": "sitecore_sxa_master_index",
+        "Name": "storefront101_master_index",
+        "InternalIndexName": "sitecore_master_index",
         "IncrementalListName": "CatalogItemsIncrementalIndexMaster",
         "DeletedListName": "CatalogItemsDeletedIndexMaster",
         "FullListNames": [
@@ -183,8 +183,8 @@
       },
       {
         "$type": "Sitecore.Commerce.Plugin.Search.SitecoreItemSearchScopePolicy, Sitecore.Commerce.Plugin.Search",
-        "Name": "xp101_sxa_web_index",
-        "InternalIndexName": "sitecore_sxa_web_index",
+        "Name": "storefront101_web_index",
+        "InternalIndexName": "sitecore_web_index",
         "IncrementalListName": "CatalogItemsIncrementalIndexWeb",
         "DeletedListName": "CatalogItemsDeletedIndexWeb",
         "FullListNames": [
